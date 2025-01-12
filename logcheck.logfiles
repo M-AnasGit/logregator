@@ -1,0 +1,13 @@
+## Logs that will be checked by logcheck
+#
+# This file is empty and all settings are in files (whose name must
+# end in '.logfiles') under /etc/logcheck/logcheck.logfiles.d/
+#
+# It is recommended that you put local settings into
+# /etc/logcheck/logcheck.logfiles.d/local.logfiles instead of editing this file
+#
+# Each line should be:
+# - an absolute path to a log
+# - the word 'journal' which will check lines in the systemd journal
+#
+# Comments, starting with '#', and blank lines are ignored
