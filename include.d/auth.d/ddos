@@ -1,0 +1,24 @@
+^.*Too many connections from.*$
+^.*Connection limit exceeded.*$
+^.*Excessive number of requests from IP.*$
+^.*Rate limit exceeded.*$
+^.*HTTP 429 Too Many Requests.*$
+^.*503 Service Unavailable.*$
+^.*GET /.* repeated .* times.*$
+^.*POST /.* repeated .* times.*$
+^.*\?session=.*\&session=.*$
+^.*\?id=.*\&id=.*$
+^.*\?token=.*&token=.*$
+^.*\?\w+=\.\./.*$
+^.*\?\w+=http[s]?://.*$
+^.*\.\.\/\.\.\/.*$
+^.*User-Agent: .*bot.*$
+^.*User-Agent: .*crawler.*$
+^.*User-Agent: .*scan.*$
+^.*Failed login attempts from IP.* repeated.*$
+^.*Abnormal traffic detected from IP.*$
+^.*SYN flood detected.*$
+^.*Excessive SYN packets from IP.*$
+^.*Connection reset by peer.*$
+^.*Access from .* exceeded threshold of .* requests per second.*$
+^.*Request queue full.*$

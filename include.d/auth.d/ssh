@@ -1,0 +1,11 @@
+^.*Failed password for .* from .* port [0-9]+ ssh2$
+^.*Invalid user .* from .* port [0-9]+ ssh2$
+^.*Received disconnect from .*: 11: .* \[preauth\]$
+^.*error: maximum authentication attempts exceeded for .* from .* port [0-9]+ .* \[preauth\]$
+^.*pam_unix\(.*:auth\): authentication failure; logname=.* uid=.* euid=.* tty=.* ruser=.* rhost=.*$
+^.*pam_sss\(.*:auth\): received for user .*: Authentication failure \(password mismatch\)$
+^.*FAILED LOGIN .* FOR .* FROM .* ON .*$
+^.*User not known to the underlying authentication module$
+^.*Login incorrect$
+^.*Authentication failed for .* from .*$ 
+^.*Access denied for user .* from .*$
